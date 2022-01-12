@@ -50,5 +50,5 @@ Syslog
 //    Roles = extract(@'roles=\"([\w\s\:\.]+)\"',1,SyslogMessage),
 //    Type = extract(@'type=(\S+)',1,SyslogMessage),
 //    Messages = extract(@'msg=\"([\w\s\:\.]+)\"',1,SyslogMessage),
-//    Source_IP = extract(@'fw=([\d\.]+)',1,SyslogMessage)
+//    Source_IP = extract(@'src=([\d\.]+)',1,SyslogMessage)
 
